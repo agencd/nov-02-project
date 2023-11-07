@@ -12,9 +12,6 @@ env:
   
 jobs:
   terraform:
-    defaults:
-      run:
-        working-directory: ./nov-01
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
